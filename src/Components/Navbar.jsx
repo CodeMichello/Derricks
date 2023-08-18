@@ -7,9 +7,11 @@ function Navbar() {
   const handleClick = () => setisOpen(!isOpen);
 
   return (
-    <nav className="bg-dark w-full text-white flex justify-between items-center py-4 px-4 lg:px-8">
+    <nav className="fixed bg-dark text-white flex justify-between w-full items-center py-6 px-4 lg:px-8">
       <div>
-        <h1 className="text-base md:text-xl font-semibold">Derrick Amenuve</h1>
+        <h1 className="text-xl md:text-2xl lg:text-2xl font-semibold">
+          Derrick Amenuve
+        </h1>
       </div>
       <ul className="text-lg font-light hidden md:flex">
         <li className="hover:text-yellowish ">About</li>
@@ -27,7 +29,7 @@ function Navbar() {
         className={
           !isOpen
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-dark flex flex-col justify-center items-center"
+            : "absolute top-0 text-2xl left-0 w-full h-screen bg-dark flex flex-col justify-center items-center"
         }
       >
         <li className="hover:text-yellowish py-5">About</li>

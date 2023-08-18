@@ -7,9 +7,10 @@
 @layer base {
   body {
     @apply font-[Poppins];
+    /* @apply bg-dark; */
   }
 
   li {
-    @apply px-6;
+    @apply px-4;
   }
 }

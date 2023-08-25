@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="bg-dark py-16 lg:pt-24 lg:pb-10">
+    <section className=" py-16 lg:pt-24 lg:pb-10">
       <div className="flex flex-col items-center container mx-auto">
         <div className="pt-10 mx-8 lg:mx-44">
           <h1 className="text-white text-4xl md:text-5xl font-bold">

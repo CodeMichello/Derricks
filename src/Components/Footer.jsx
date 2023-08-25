@@ -1,18 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
+
 function Footer() {
   return (
-    <footer className="bg-dark">
-      <div>
-        <hr className="text-gray" />
-      </div>
-      <div>
-        <p className="text-gray">
-          Got any opportunities? or just
-          <a href="mailto:derrickamenuve@gmail.com">
-            <span>say hi 👋</span>
-          </a>
-        </p>
-      </div>
-      <div className="flex">
+    <footer className=" flex flex-col items-center">
+      <p className="text-white font-extrabold md:text-6xl text-4xl p-5">
+        Let's Connect
+      </p>
+
+      <p className="text-gray p-5">
+        Got any opportunities? or just{" "}
+        <a href="mailto:derrickamenuve@gmail.com">
+          <span className="text-yellowish underline">say hi 👋</span>
+        </a>
+      </p>
+
+      <div className="flex pt-5 pb-12 space-x-3">
         <a
           href="https://www.linkedin.com/in/derrickamenuve/?original_referer=https%3A%2F%2Fux-portfolio-ruby-ytcp.vercel.app%2F"
           target="_blanK"

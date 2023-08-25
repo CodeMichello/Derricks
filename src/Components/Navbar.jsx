@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SlMenu } from "react-icons/sl";
 import { TfiClose } from "react-icons/tfi";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setisOpen] = useState(false);
@@ -14,9 +15,15 @@ function Navbar() {
         </h1>
       </div>
       <ul className="text-lg font-light hidden md:flex">
-        <li className="hover:text-yellowish ">About</li>
-        <li className="hover:text-yellowish ">Works</li>
-        <li className="hover:text-yellowish">Contact</li>
+        <li className="hover:text-yellowish ">
+          <Link to="/works">Works</Link>
+        </li>
+        <li className="hover:text-yellowish ">
+          <Link to="/about">About</Link>
+        </li>
+        <li className="hover:text-yellowish">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
 
       {/* Harmburger */}
@@ -32,9 +39,15 @@ function Navbar() {
             : "absolute top-0 text-2xl left-0 w-full h-screen bg-dark flex flex-col justify-center items-center"
         }
       >
-        <li className="hover:text-yellowish py-5">About</li>
-        <li className="hover:text-yellowish  py-5">Works</li>
-        <li className="hover:text-yellowish py-5">Contact</li>
+        <li className="hover:text-yellowish py-5">
+          <Link to="/works">Works</Link>
+        </li>
+        <li className="hover:text-yellowish  py-5">
+          <Link to="/about">About</Link>
+        </li>
+        <li className="hover:text-yellowish py-5">
+          <Link to="/contact">Contact</Link>t
+        </li>
       </ul>
     </nav>
   );

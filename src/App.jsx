@@ -1,18 +1,26 @@
-import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
-import Horizontal from "./Components/Horizontal";
 import Navbar from "./Components/Navbar";
-import WorkCard from "./Components/WorkCard";
-import works from "./works";
+import Footer from "./Components/Footer";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Works from "./Pages/Works";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <section>{WorkCards}</section>
-      <Horizontal />
-      <Footer />
+      {
+        <>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+        </>
+      }
     </>
   );
 }

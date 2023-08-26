@@ -1,3 +1,4 @@
+import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
 function WorkCard(props) {

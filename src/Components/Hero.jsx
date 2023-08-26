@@ -1,3 +1,5 @@
+import React from "react";
+
 function Hero() {
   return (
     <section className=" py-16 lg:pt-24 lg:pb-10">

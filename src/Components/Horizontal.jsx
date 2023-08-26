@@ -1,3 +1,5 @@
+import React from "react";
+
 function Horizontal() {
   return (
     <div className=" flex items-center justify-center pt-14 pb-10">

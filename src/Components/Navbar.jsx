@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { SlMenu } from "react-icons/sl";
 import { TfiClose } from "react-icons/tfi";

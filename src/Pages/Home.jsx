@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from "../Components/Hero";
 import Horizontal from "../Components/Horizontal";
 import WorkCard from "../Components/WorkCard";

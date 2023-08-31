@@ -1,5 +1,4 @@
 // import ReactDOM from "react-dom/client.js";
-import React from "react";
 import * as ReactDOM from "react-dom/client";
 
 import App from "./App.jsx";

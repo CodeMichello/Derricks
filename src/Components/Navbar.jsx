@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import { SlMenu } from "react-icons/sl";
 import { TfiClose } from "react-icons/tfi";
@@ -9,10 +8,10 @@ function Navbar() {
   const handleClick = () => setisOpen(!isOpen);
 
   return (
-    <nav className="fixed bg-dark text-white flex justify-between w-full items-center py-6 px-4 lg:px-8">
+    <nav className="fixed bg-dark h-[80px] top-0 text-white flex justify-between w-full items-center py-6 px-4 lg:px-8">
       <div>
         <h1 className="text-xl md:text-2xl lg:text-2xl font-semibold">
-          Derrick Amenuve
+          <Link to="/">Derrick Amenuve</Link>
         </h1>
       </div>
       <ul className="text-lg font-light hidden md:flex">

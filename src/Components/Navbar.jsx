@@ -40,13 +40,20 @@ function Navbar() {
         }
       >
         <li className="hover:text-yellowish py-5">
-          <Link to="/works">Works</Link>
+          <Link onClick={handleClick} to="/works">
+            Works
+          </Link>
         </li>
         <li className="hover:text-yellowish  py-5">
-          <Link to="/about">About</Link>
+          <Link onClick={handleClick} to="/about">
+            About
+          </Link>
         </li>
         <li className="hover:text-yellowish py-5">
-          <Link to="/contact">Contact</Link>t
+          <Link onClick={handleClick} to="/contact">
+            Contact
+          </Link>
+          t
         </li>
       </ul>
     </nav>

@@ -1,6 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useLocation } from "react-router-dom";
 
 function Footer() {
+  const { pathname } = useLocation();
+  if (pathname === "/contact") return <></>;
+
   return (
     <footer className=" flex flex-col items-center">
       <p className="text-white font-extrabold md:text-6xl text-4xl p-5">

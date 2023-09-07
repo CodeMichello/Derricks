@@ -2,11 +2,11 @@
 export default function About() {
   return (
     <>
-      <div className="container mx-auto">
-        <div className="flex items-center justify-center flex-col pt-10">
+      <div className="container mx-auto pl-6 pr-6 xl:pl-[80px] xl:pr-[80px] pt-6 md:pt-12">
+        <div className="flex items-center justify-center flex-col ">
           <img className="w-full" src="/about.png" alt="About" />
         </div>
-        <div className="text-gray text-xl">
+        <div className="text-gray text-xl ">
           <p className="pt-12">
             I’ve spent the last 4+ years creating human-centred user interfaces
             and experiences across e-Commerce/Marketplace, Prop-tech, Edtech and
@@ -38,7 +38,7 @@ export default function About() {
             <span className="underline">Read more about my journey.</span>
           </a>
         </div>
-        <div className="pt-16 flex pb-16">
+        <div className="pt-16 flex flex-col md:flex-row pb-16">
           <div id="col-1">
             <div id="work-exp" className="max-w-xs">
               <h2 className="text-xl text-white font-semibold">
@@ -105,7 +105,7 @@ export default function About() {
             </div>
           </div>
 
-          <div id="col-2" className="mx-auto max-w-xs">
+          <div id="col-2" className=" md:mx-auto md:mt-0 mt-10 max-w-xs">
             <h2 className="text-xl font-semibold text-white">Skills👨🏾‍💻</h2>
             <p className=" text-gray mt-4">
               User Experience Design, Analytical skills, Sketching /
@@ -135,16 +135,16 @@ export default function About() {
               </a>
             </p>
 
-            <h2 className="text-xl font-medium mt-6 text-white">Reading 📚</h2>
-            <p className="font-extralight text-gray mt-4">
+            <h2 className="text-xl font-semibold mt-6 text-white">
+              Reading 📚
+            </h2>
+            <p className=" text-gray mt-4">
               Don’t Make Me Think, Revisited- Steve Krug
             </p>
-            <p className="font-extralight text-gray">UX Strategy- Jaime Levy</p>
+            <p className=" text-gray">UX Strategy- Jaime Levy</p>
 
-            <h2 className="text-xl font-medium mt-6 text-white">Courses🎓</h2>
-            <p className="font-extralight text-gray mt-4">
-              Google UX Design Certificate
-            </p>
+            <h2 className="text-xl font-semibold mt-6 text-white">Courses🎓</h2>
+            <p className=" text-gray mt-4">Google UX Design Certificate</p>
           </div>
         </div>
       </div>

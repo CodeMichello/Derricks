@@ -53,7 +53,6 @@ function Navbar() {
           <Link onClick={handleClick} to="/contact">
             Contact
           </Link>
-          t
         </li>
       </ul>
     </nav>

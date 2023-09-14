@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    image: "/public/marble.png",
+    image: "/marble.png",
     altText: "UI/UX DESIGN, INTERACTION DESIGN",
     title: "Convert 20% more leads and onboard users",
     description:
@@ -12,7 +12,7 @@ export default [
   },
   {
     id: 2,
-    image: "/public/afrikrea.png",
+    image: "/afrikrea.png",
     altText: "UX DESIGN, WEB APP REDESIGN",
     title: "Creating a better shipping experience for 13,000 + merchants",
     description:
@@ -23,7 +23,7 @@ export default [
   },
   {
     id: 3,
-    image: "/public/viszitorslog.png",
+    image: "/viszitorslog.png",
     altText: "UX DESIGN, WEB APP DESIGN, LANDING PAGE DESIGN",
     title: "Keeping track of all your visitors at the workplace",
     description:
@@ -34,7 +34,7 @@ export default [
   },
   {
     id: 4,
-    image: "/public/azone.png",
+    image: "/azone.png",
     altText: "UX DESIGN, WEB APP DESIGN, LANDING PAGE DESIGN",
     title: "Everything you need for your next trip",
     description:
@@ -45,7 +45,7 @@ export default [
   },
   {
     id: 5,
-    image: "/public/anka.png",
+    image: "/anka.png",
     altText: "UX DESIGN, WEBSITE DESIGN & DEVELOPMENT",
     title: "An all-in-one solution for your e-commerce business",
     description:
@@ -56,7 +56,7 @@ export default [
   },
   {
     id: 6,
-    image: "/public/tailorsnote.png",
+    image: "/tailorsnote.png",
     altText: "UX DESIGN, MOBILE APP DESIGN, LANDING PAGE DESIGN",
     title: "A productivity tool for fashion designers",
     description:
